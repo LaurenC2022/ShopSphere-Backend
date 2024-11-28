@@ -1,10 +1,13 @@
-# usage: 
+# usage:
+# Activate virtual environment 
 # $ . venv/.venv/bin/activate
-# $ pip install requirements.txt
+# $ pip install -r requirements.txt
 # $ cd app
-# $ flask --app __init__ run
+# $ export FLASK_APP=__init__.py
+# $ export FLASK_ENV=development
+# $ flask run
 # quit deploy
-# $ ctl c 
+# $ ctrl c 
 # deactivates venv 
 # $ deactivate 
 
